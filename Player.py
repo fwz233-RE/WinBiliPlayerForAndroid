@@ -17,6 +17,15 @@ class MediaPlayerApp:
     def __init__(self, root):
         self.root = root
         self.root.title("媒体播放器")
+        root.tk.call('tk', 'scaling', 3)  # 将缩放比例设置为 1.5 倍
+
+        # 启用高DPI支持
+        if 'win' in sys.platform.lower():
+            try:
+                from ctypes import windll
+                windll.shcore.SetProcessDpiAwareness(1)
+            except Exception:
+                pass
 
         # 设置窗口大小和居中
         window_width = 800
