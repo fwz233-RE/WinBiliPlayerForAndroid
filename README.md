@@ -1,5 +1,5 @@
 # WinBiliPlayerForAndroid
-安装 https://www.videolan.org/ 与 https://www.python.org/ 的最新版后可以正常使用。
+安装 https://www.videolan.org/ 与 https://www.python.org/ 的最新版后可以正常使用Player.py文件。
 
 B站视频点击下载之后，会在Android/data的download文件夹内。视频和音乐会分别缓存到这个文件夹下面，文件夹名称是av号。
 
